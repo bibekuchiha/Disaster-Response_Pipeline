@@ -14,7 +14,7 @@ We will make an AI pipeline to arrange calamity occasions with the goal that we 
 </br>
 <h3> 2. Project Motivation <a name="motivation"></a></h3>  
 
-Create a machine learning pipeline to categorize these events so that users can send the messages to an appropriate disaster relief agency.
+Make an AI pipeline to classify these occasions with the goal that clients can send the messages to a suitable calamity alleviation organization.
 <h3> 3. File Descriptions <a name="files"></a> </h3>  
 
 > * **data/disaster_messages.csv data/disaster_categories.csv :** original data
@@ -24,8 +24,7 @@ Create a machine learning pipeline to categorize these events so that users can 
 > * **models/classifier.pkl:** a pickle file which saves model
 > * **data/:** a Flask framework for presenting data
 <h3> 4. Instructions</h3>
-1. Run the following commands in the project's root directory to set up your database and model.
-
+1. Run the accompanying commands in the venture's root directory to set up your database and model.
     - To run ETL pipeline that cleans data and stores in database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves
